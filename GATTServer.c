@@ -54,6 +54,7 @@ typedef enum {
     APP_OP_DEINIT,
 }APP_OPERATION;
 
+
 typedef struct {
     APP_OPERATION        op_flag;
     APP_STATUS           state;
